@@ -35,7 +35,7 @@ def limit_handle(cursor):
         try:
             yield cursor.next()
         except tweepy.RateLimitError:
-            # 1 second "pause" so that you don't
+            # 1 second "pause" so that you don't hit the Twitter request limit
             time.sleep(1000)
 
 
