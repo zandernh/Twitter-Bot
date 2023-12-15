@@ -1,7 +1,7 @@
-# You will need to install tweepy==3.8  using PIP or in PyCharm for this to work and will also need to create a Twitter API account.
-# Run this on your own machine
+# You will need to install tweepy==3.8  using PIP install in your terminal or install in PyCharm for this to work 
+# And you will also need to create a Twitter API account
 # You need to register with Twitter/X in order to use this Twitter Bot script
-# A free account isn't sufficient as the functionality below allows you to pull data - which isn't covered under their free version
+# A free account isn't sufficient as the functionality below allows you to pull data - which isn't covered under their free version of the API
 
 import tweepy
 import time
